@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LARA — Términos y Condiciones del Servicio</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Inter', sans-serif; background: #0d1117; color: #c9d1d9; line-height: 1.7; font-size: 14px; }
+    .page { max-width: 780px; margin: 40px auto; background: #161b22; border: 1px solid #30363d; border-radius: 12px; overflow: hidden; box-shadow: 0 8px 40px rgba(0,0,0,0.5); }
+    .header { background: linear-gradient(135deg, #0f3460 0%, #1a1a2e 60%, #16213e 100%); padding: 40px 48px 32px; border-bottom: 1px solid #30363d; position: relative; overflow: hidden; }
+    .header::before { content: ''; position: absolute; top: -60px; right: -60px; width: 200px; height: 200px; background: radial-gradient(circle, rgba(88,166,255,0.12) 0%, transparent 70%); border-radius: 50%; }
+    .header-top { display: flex; align-items: center; gap: 16px; margin-bottom: 16px; }
+    .logo-icon { width: 48px; height: 48px; background: linear-gradient(135deg, #58a6ff, #1f6feb); border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: 24px; box-shadow: 0 4px 16px rgba(88,166,255,0.3); flex-shrink: 0; }
+    .header h1 { font-size: 26px; font-weight: 700; color: #e6edf3; letter-spacing: -0.3px; }
+    .header .subtitle { font-size: 13px; color: #8b949e; margin-top: 4px; }
+    .doc-meta { display: flex; gap: 24px; margin-top: 20px; flex-wrap: wrap; }
+    .meta-item { display: flex; flex-direction: column; gap: 2px; }
+    .meta-label { font-size: 10px; text-transform: uppercase; letter-spacing: 0.8px; color: #8b949e; font-weight: 500; }
+    .meta-value { font-size: 13px; color: #58a6ff; font-weight: 500; }
+    .content { padding: 40px 48px; }
+    .disclaimer-box { background: rgba(88,166,255,0.08); border-left: 3px solid #58a6ff; border-radius: 0 8px 8px 0; padding: 16px 20px; margin-bottom: 36px; font-size: 13px; color: #8b949e; }
+    .disclaimer-box strong { color: #58a6ff; display: block; margin-bottom: 4px; font-size: 11px; text-transform: uppercase; letter-spacing: 0.6px; }
+    section { margin-bottom: 32px; }
+    .section-title { display: flex; align-items: center; gap: 10px; font-size: 15px; font-weight: 600; color: #e6edf3; margin-bottom: 16px; padding-bottom: 10px; border-bottom: 1px solid #21262d; }
+    .section-num { width: 26px; height: 26px; background: linear-gradient(135deg, #1f6feb, #0f3460); border-radius: 6px; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: 700; color: #58a6ff; flex-shrink: 0; }
+    .clause { display: flex; gap: 12px; margin-bottom: 12px; align-items: flex-start; }
+    .clause-bullet { width: 6px; height: 6px; background: #58a6ff; border-radius: 50%; margin-top: 7px; flex-shrink: 0; opacity: 0.7; }
+    .clause p { font-size: 13.5px; color: #8b949e; line-height: 1.7; }
+    .clause p strong { color: #c9d1d9; font-weight: 500; }
+    .highlight-box { background: rgba(63,185,80,0.08); border-left: 3px solid #3fb950; border-radius: 0 8px 8px 0; padding: 14px 18px; margin: 12px 0; font-size: 13px; color: #8b949e; }
+    .highlight-box strong { color: #3fb950; }
+    .warning-box { background: rgba(210,153,34,0.08); border-left: 3px solid #d29922; border-radius: 0 8px 8px 0; padding: 14px 18px; margin: 12px 0; font-size: 13px; color: #8b949e; }
+    .warning-box strong { color: #d29922; }
+    .price-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 16px 0; }
+    .price-card { background: #0d1117; border: 1px solid #30363d; border-radius: 8px; padding: 14px 16px; }
+    .price-card .price-label { font-size: 10px; text-transform: uppercase; letter-spacing: 0.6px; color: #8b949e; margin-bottom: 4px; }
+    .price-card .price-value { font-size: 20px; font-weight: 700; color: #e6edf3; }
+    .price-card .price-sub { font-size: 11px; color: #8b949e; margin-top: 2px; }
+    .footer { background: #0d1117; border-top: 1px solid #21262d; padding: 24px 48px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; }
+    .footer-left { font-size: 11px; color: #6e7681; }
+    .footer-right { font-size: 11px; color: #6e7681; }
+    .version-badge { display: inline-block; background: rgba(88,166,255,0.12); color: #58a6ff; border-radius: 4px; padding: 2px 8px; font-size: 10px; font-weight: 600; letter-spacing: 0.4px; }
+    @media print {
+      body { background: white !important; }
+      .page { box-shadow: none; border: none; margin: 0; max-width: 100%; border-radius: 0; }
+    }
+  </style>
+</head>
+<body>
+<div class="page">
+  <div class="header">
+    <div class="header-top">
+      <div class="logo-icon">L</div>
+      <div>
+        <h1>LARA — Términos y Condiciones</h1>
+        <div class="subtitle">Asistente de IA para análisis de mercados de criptomonedas</div>
+      </div>
+    </div>
+    <div class="doc-meta">
+      <div class="meta-item"><span class="meta-label">Versión</span><span class="meta-value">1.0</span></div>
+      <div class="meta-item"><span class="meta-label">Fecha de vigencia</span><span class="meta-value">Agosto 2025</span></div>
+      <div class="meta-item"><span class="meta-label">Prestador</span><span class="meta-value">GURUWEB · CUIT [CUIT]</span></div>
+      <div class="meta-item"><span class="meta-label">Jurisdicción</span><span class="meta-value">República Argentina</span></div>
+    </div>
+  </div>
+
+  <div class="content">
+    <div class="disclaimer-box">
+      <strong>Resumen ejecutivo</strong>
+      Al acceder y utilizar el servicio LARA, el usuario acepta los presentes Términos y Condiciones en su totalidad. Se recomienda su lectura completa antes de iniciar cualquier suscripción.
+    </div>
+
+    <section>
+      <div class="section-title"><div class="section-num">1</div>Definición del Servicio y Naturaleza</div>
+      <div class="clause"><div class="clause-bullet"></div><p><strong>LARA</strong> es una asistente de inteligencia artificial especializada en el análisis técnico y cuantitativo del mercado de criptomonedas. Opera exclusivamente a través de la plataforma <strong>Telegram</strong> y funciona en modalidad de suscripción mensual.</p></div>
+      <div class="clause"><div class="clause-bullet"></div><p><strong>Herramienta educativa y de análisis:</strong> LARA provee información técnica, análisis cuantitativo de estrategias y lectura de mercado con fines educativos e informativos. <strong>No constituye asesoramiento financiero, inversión recomendada ni gestión de activos bajo ninguna forma regulada.</strong></p></div>
+      <div class="clause"><div class="clause-bullet"></div><p><strong>Cobertura exclusiva de mercado cripto:</strong> El servicio está especializado únicamente en el mercado de criptomonedas (Bitcoin, Ethereum, Altcoins principales y métricas macro del sector). No analiza ni opera mercado bursátil tradicional (acciones) ni divisas (Forex).</p></div>
+      <div class="warning-box"><strong>Aviso importante:</strong> Las señales, análisis y recomendaciones de LARA son <strong>orientativas</strong>. Toda decisión de compra, venta o mantenimiento de activos digitales es responsabilidad exclusiva del usuario.</div>
+    </section>
+
+    <section>
+      <div class="section-title"><div class="section-num">2</div>Capacidades del Servicio</div>
+      <div class="clause"><div class="clause-bullet"></div><p><strong>Análisis técnico:</strong> LARA aplica indicadores técnicos profesionales (ADX, RSI, MACD, EMA/SMA, Estocástico, Bollinger Bands, Soportes y Resistencias) para evaluar el estado del mercado.</p></div>
+      <div class="clause"><div class="clause-bullet"></div><p><strong>Briefing diario:</strong> Envío automático de resumen de mercado con precios en tiempo real, variaciones, señales técnicas y contexto macro relevante.</p></div>
+      <div class="clause"><div class="clause-bullet"></div><p><strong>Backtesting cuantitativo:</strong> Validación de estrategias de trading sobre datos históricos reales, incluyendo comisiones de exchange y estimación de slippage. Análisis In-Sample (70%) y Out-of-Sample (30%) para prevenir sobreajuste. Métricas: Profit Factor, Max Drawdown, Recovery Factor, Win Rate, Sharpe Ratio.</p></div>
+      <div class="clause"><div class="clause-bullet"></div><p><strong>Interpretación de gráficos:</strong> LARA puede analizar capturas de pantalla de gráficos de velas japonesas que el usuario envíe al chat.</p></div>
+      <div class="clause"><div class="clause-bullet"></div><p><strong>Gestión de riesgo:</strong> Cálculo de sizing de posición mediante fórmulas cuantitativas (Kelly Fraccionado, riesgo por operación, diversificación).</p></div>
+    </section>
+
+    <section>
+      <div class="section-title"><div class="section-num">3</div>Lo que LARA NO hace</div>
+      <div class="clause"><div class="clause-bullet"></div><p><strong>No custodia fondos:</strong> LARA jamás solicita claves API de retiro, acceso a billeteras, ni custodia activos digitales. El control total del capital permanece en manos del usuario.</p></div>
+      <div class="clause"><div class="clause-bullet"></div><p><strong>No ejecuta órdenes de forma autónoma:</strong> Ninguna operación de compra o venta se ejecuta sin confirmación explícita del usuario.</p></div>
+      <div class="clause"><div class="clause-bullet"></div><p><strong>No garantiza rentabilidades:</strong> LARA no promete ni garantiza rendimientos fijos, porcentuales ni de ningún otro tipo.</p></div>
+      <div class="clause"><div class="clause-bullet"></div><p><strong>No inventa datos:</strong> En caso de falla de una API externa, LARA lo informa explícitamente en lugar de proporcionar datos estimados o fabricados.</p></div>
+    </section>
+
+    <section>
+      <div class="section-title"><div class="section-num">4</div>Precio, Suscripción y Facturación</div>
+      <div class="price-grid">
+        <div class="price-card"><div class="price-label">Precio regular</div><div class="price-value">$80.000</div><div class="price-sub">ARS / mes</div></div>
+        <div class="price-card"><div class="price-label">Precio con código de afiliado</div><div class="price-value">$60.000</div><div class="price-sub">ARS / mes</div></div>
+      </div>
+      <div class="clause"><div class="clause-bullet"></div><p><strong>Modalidad de pago:</strong> Pago mensual por adelantado mediante transferencia bancaria o Lemon Cash. No se requiere tarjeta de crédito ni se autorizan débitos automáticos.</p></div>
+      <div class="clause"><div class="clause-bullet"></div><p><strong>Ciclo de suscripción:</strong> 30 días corridos a partir de la fecha de acreditación del pago, independientemente del día del mes en que se realice.</p></div>
+      <div class="clause"><div class="clause-bullet"></div><p><strong>Renovación:</strong> No es automática. Soporte técnico enviará un aviso previo al vencimiento. Si no se renueva, el acceso se suspende automáticamente.</p></div>
+      <div class="clause"><div class="clause-bullet"></div><p><strong>Período de prueba:</strong> Los usuarios referidos por afiliados autorizados podrán acceder a <strong>2 días de prueba gratuita</strong> sin compromiso y sin datos de pago.</p></div>
+      <div class="clause"><div class="clause-bullet"></div><p><strong>Cancelación:</strong> El usuario puede cancelar en cualquier momento sin penalidad, notificando al soporte técnico o al afiliado de referencia.</p></div>
+    </section>
+
+    <section>
+      <div class="section-title"><div class="section-num">5</div>Privacidad y Confidencialidad</div>
+      <div class="clause"><div class="clause-bullet"></div><p><strong>Privacidad total:</strong> Las conversaciones del usuario con LARA son privadas e inaccesibles para terceros. El prestador del servicio no accede ni almacena el contenido de las consultas individuales.</p></div>
+      <div class="clause"><div class="clause-bullet"></div><p><strong>Datos de suscripción:</strong> El prestador conserva únicamente los datos de contacto y registro de pagos necesarios para la gestión del servicio, en conformidad con la Ley N° 25.326 de Protección de Datos Personales de la República Argentina.</p></div>
+    </section>
+
+    <section>
+      <div class="section-title"><div class="section-num">6</div>Limitación de Responsabilidad</div>
+      <div class="clause"><div class="clause-bullet"></div><p>El prestador no será responsable por pérdidas económicas derivadas de decisiones de inversión tomadas a partir del análisis o las señales de LARA.</p></div>
+      <div class="clause"><div class="clause-bullet"></div><p>El mercado de criptomonedas es altamente volátil y especulativo. El usuario asume de forma consciente todos los riesgos inherentes a la operación en dicho mercado.</p></div>
+      <div class="clause"><div class="clause-bullet"></div><p>El servicio se provee "tal cual está". El prestador realizará sus mejores esfuerzos para garantizar disponibilidad continua, pero no ofrece garantía de servicio ininterrumpido.</p></div>
+      <div class="warning-box"><strong>Riesgo de inversión:</strong> Invertir en criptomonedas implica un riesgo elevado de pérdida del capital invertido. No invierta dinero que no pueda permitirse perder.</div>
+    </section>
+
+    <section>
+      <div class="section-title"><div class="section-num">7</div>Programa de Afiliados</div>
+      <div class="clause"><div class="clause-bullet"></div><p>El prestador puede establecer acuerdos de referencia con terceros (afiliados). Los afiliados actúan de forma independiente y no tienen autorización para modificar las condiciones del servicio, ofrecer garantías adicionales ni gestionar pagos en nombre del prestador.</p></div>
+      <div class="clause"><div class="clause-bullet"></div><p>Los afiliados están obligados a comunicar el carácter educativo y no asesor del servicio en toda comunicación pública relacionada con LARA.</p></div>
+      <div class="highlight-box"><strong>Transparencia:</strong> LARA es una herramienta de análisis técnico y educativo. No constituye asesoramiento financiero registrado. Cobertura exclusiva: mercado de criptomonedas.</div>
+    </section>
+
+    <section>
+      <div class="section-title"><div class="section-num">8</div>Modificaciones y Jurisdicción</div>
+      <div class="clause"><div class="clause-bullet"></div><p><strong>Modificaciones:</strong> El prestador se reserva el derecho de actualizar estos Términos y Condiciones. Los cambios serán notificados a los usuarios activos con al menos 7 días de anticipación.</p></div>
+      <div class="clause"><div class="clause-bullet"></div><p><strong>Jurisdicción:</strong> Los presentes términos se rigen por la legislación de la República Argentina. Para cualquier controversia las partes se someten a la jurisdicción de los tribunales competentes de la Ciudad Autónoma de Buenos Aires.</p></div>
+      <div class="clause"><div class="clause-bullet"></div><p><strong>Aceptación:</strong> El pago del servicio o el uso del período de prueba implica la aceptación plena de estos Términos y Condiciones.</p></div>
+    </section>
+  </div>
+
+  <div class="footer">
+    <div class="footer-left">
+      <strong style="color:#c9d1d9;">GURUWEB</strong> · CUIT [CUIT]<br>
+      Servicio: LARA — Asistente IA de análisis cripto
+    </div>
+    <div class="footer-right">
+      <span class="version-badge">v1.0 — Agosto 2025</span><br>
+      <span style="margin-top:4px; display:block;">Contacto:<br>Telegram: +541171124259 (Guruweb soporte)<br>Email: info@guruweb.com.ar</span>
+    </div>
+  </div>
+</div>
+</body>
+</html>
